@@ -26,6 +26,28 @@
         "content.styles.css"
       ],
       "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://lpa.gov.rs/*",
+        "https://euprava.gov.rs/*"
+      ],
+      "js": [
+        "porez.bundle.js"
+      ],
+      "css": [
+        "content.styles.css"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://legacy.curseforge.com/wow/*",
+        "https://www.curseforge.com/wow/*"
+      ],
+      "js": [
+        "curseforge.bundle.js"
+      ]
     }
   ],
   "devtools_page": "devtools.html",

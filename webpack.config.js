@@ -42,12 +42,15 @@ var options = {
     options: path.join(__dirname, 'src', 'pages', 'Options', 'index.jsx'),
     popup: path.join(__dirname, 'src', 'pages', 'Popup', 'index.jsx'),
     background: path.join(__dirname, 'src', 'pages', 'Background', 'index.js'),
-    contentScript: path.join(__dirname, 'src', 'pages', 'Content', 'index.js'),
+    contentScript: path.join(__dirname, 'src', 'pages', 'Content', 'mangafire.js'),
+    porez: path.join(__dirname, 'src', 'pages', 'Content', 'porez.ts'),
     devtools: path.join(__dirname, 'src', 'pages', 'Devtools', 'index.js'),
     panel: path.join(__dirname, 'src', 'pages', 'Panel', 'index.jsx'),
+    curseforge: path.join(__dirname, 'src', 'pages', 'Content', 'curseforge.js'),
+    // observeDom: path.join(__dirname, 'node_modules', '@funnelenvy-npm', 'fe-dev-utils', 'src', 'observe-dom', 'observeDom.js'),
   },
   chromeExtensionBoilerplate: {
-    notHotReload: ['background', 'contentScript', 'devtools'],
+    notHotReload: ['background', 'contentScript', 'devtools', 'contentScript2'],
   },
   output: {
     filename: '[name].bundle.js',
